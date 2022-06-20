@@ -23,7 +23,7 @@ def test_add():
 
 
 def test_delete():
-    response = clientes.delete("/clientes/3")
+    response = clientes.delete("/clientes/")
     dataCliente_delete = {"message":"usuario borrado"}
     assert response.status_code == 200
     assert response.json() == dataCliente_delete
