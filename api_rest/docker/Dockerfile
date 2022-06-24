@@ -1,5 +1,4 @@
 FROM ubuntu:20.04
-LABEL description = "Tarea 2.1"
 RUN apt update
 RUN apt upgrade -y
 
